@@ -1,38 +1,3 @@
-.flex-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.custom-button {
-  background-color: #22283A;
-  border: 1px solid #22283A;
-  border-radius: 12px;
-  color: #F1F1F1;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 1px;
-}
-.hover-button {
-  background-color: #F1F1F1;
-  border: 1px solid #F1F1F1;
-  border-radius: 12px;
-  color: #22283A;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 1px;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -195,33 +160,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.heading {
-  width: 100%;
-  background-color: #F1F1F1;
-}
-.heading .navigation {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  width: 30%;
-  margin-left: 35%;
-}
-.heading .navigation h1 {
-  font-size: 6rem;
-  margin-bottom: 2%;
-}
-.heading .navigation nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 3%;
-}
-.heading .navigation nav a {
-  font-size: 2rem;
-  text-decoration: none;
-  color: #23293B;
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -273,30 +211,6 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
-}
-.home .walk .walk-text .btn {
-  background-color: #22283A;
-  border: 1px solid #22283A;
-  border-radius: 12px;
-  color: #F1F1F1;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 1px;
-}
-.home .walk .walk-text .btn:hover {
-  background-color: #F1F1F1;
-  border: 1px solid #F1F1F1;
-  border-radius: 12px;
-  color: #22283A;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 1px;
 }
 .home .walk .walk-img {
   width: 46%;
