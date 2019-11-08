@@ -1,1 +1,39 @@
 // Navigation code here
+.heading {
+    width: 100%;
+    background-color: @sea-shell;
+    .navigation {
+        .flex-col();
+        width: 30%;
+        margin-left: 35%;
+        h1 {
+            font-size: 6rem;
+            margin-bottom: 2%;
+        }
+        nav {
+            .flex-row();
+            margin-bottom: 3%;
+            a {
+                font-size: 2rem;
+                text-decoration: none;
+                color: @ebony-clay;
+            }
+        }
+    }
+    @media @phone {
+        width: 100%;
+        // .flex-col();
+        .navigation {
+            width: 100%;
+            margin-left: 0;
+            h1 {
+                width: 100%;
+                font-size: 3rem;
+                text-align: center;
+                }
+              nav {
+                width: 100%;
+              }
+        }
+    }
+}
